@@ -1,0 +1,29 @@
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.pexels.com/photos/5064953/pexels-photo-5064953.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 4.2rem 0 2rem;
+}
+
+.hero-text h3 {
+  letter-spacing: 3px;
+  font-size: 1.5rem;
+}
+
+.hero-text span {
+  color: palegreen;
+}
+
+@media screen and (min-width: 500px) {
+  .hero-text h3 {
+    font-size: 2rem;
+  }
+}
